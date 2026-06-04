@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//config/.claude/**)",
+      "Bash(ls -la /projects/writing/.claude/skills/architecture-diagram/resources/)",
+      "Read(//projects/writing/.claude/skills/architecture-diagram/resources/**)",
+      "Read(//projects/writing/.claude/skills/architecture-diagram/**)",
+      "Bash(find /config/.claude -type d | head -20 && ls /projects/)",
+      "Read(//projects/**)",
+      "Bash(mkdir -p /projects/my-skills/skills/architecture-diagram/resources)",
+      "Bash(cp /projects/writing/.claude/skills/architecture-diagram/SKILL.md /projects/my-skills/skills/architecture-diagram/SKILL.md)",
+      "Bash(cp /projects/writing/.claude/skills/architecture-diagram/resources/template.html /projects/my-skills/skills/architecture-diagram/resources/template.html)",
+      "Bash(git commit -m ' *)"
+    ],
+    "additionalDirectories": [
+      "/projects/my-skills/skills/architecture-diagram"
+    ]
+  }
+}
