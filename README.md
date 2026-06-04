@@ -51,6 +51,36 @@ Create polished system/infrastructure/cloud/network topology diagrams as self-co
 
 ---
 
+### [vercel](skills/vercel/)
+
+使用 Vercel CLI 部署與管理專案。涵蓋預覽／正式部署、環境變數管理、日誌查看與 rollback。
+
+**Trigger:** 說「部署到 Vercel」「vercel deploy」「vercel 設定」時載入。
+
+**版本:** `vercel@52.0.0`
+
+---
+
+### [github-cli](skills/github-cli/)
+
+使用 GitHub CLI (`gh`) 操作 PR、Issue、Release 與 Actions。
+
+**Trigger:** 說「建立 PR」「gh pr」「github issue」「查看 CI」時載入。
+
+**版本:** `gh@2.91.0`
+
+---
+
+### [firebase](skills/firebase/)
+
+使用 Firebase CLI 部署與管理 Firebase 服務（Hosting、Functions、Firestore rules 等）。涵蓋 Emulator 本地開發與多環境部署。
+
+**Trigger:** 說「部署到 Firebase」「firebase deploy」「開 emulator」時載入。
+
+**版本:** `firebase@15.19.0`
+
+---
+
 ## 核心原則
 
 - **不放私人資料**：不放 NotebookLM ID、生成圖片、API key、token 等

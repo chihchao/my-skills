@@ -10,7 +10,13 @@
       "Bash(mkdir -p /projects/my-skills/skills/architecture-diagram/resources)",
       "Bash(cp /projects/writing/.claude/skills/architecture-diagram/SKILL.md /projects/my-skills/skills/architecture-diagram/SKILL.md)",
       "Bash(cp /projects/writing/.claude/skills/architecture-diagram/resources/template.html /projects/my-skills/skills/architecture-diagram/resources/template.html)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(ls /usr/local/bin /usr/bin 2>/dev/null | sort)",
+      "Read(//usr/local/bin/**)",
+      "Bash(vercel --version)",
+      "Bash(gh --version)",
+      "Bash(firebase --version)",
+      "Bash(npm --version)"
     ],
     "additionalDirectories": [
       "/projects/my-skills/skills/architecture-diagram"
