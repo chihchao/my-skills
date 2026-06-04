@@ -16,7 +16,8 @@
       "Bash(vercel --version)",
       "Bash(gh --version)",
       "Bash(firebase --version)",
-      "Bash(npm --version)"
+      "Bash(npm --version)",
+      "Read(//tmp/skill-creator-install/skills/skill-creator/**)"
     ],
     "additionalDirectories": [
       "/projects/my-skills/skills/architecture-diagram"

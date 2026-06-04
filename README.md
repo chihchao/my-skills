@@ -81,6 +81,16 @@ Create polished system/infrastructure/cloud/network topology diagrams as self-co
 
 ---
 
+### [skill-creator](skills/skill-creator/)
+
+Create new skills, modify and improve existing skills, and measure skill performance.
+
+**Trigger:** Use when creating a skill from scratch, editing/optimizing an existing skill, running evals, benchmarking performance, or optimizing a skill's description for better triggering accuracy.
+
+**Source:** [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
+
+---
+
 ## 核心原則
 
 - **不放私人資料**：不放 NotebookLM ID、生成圖片、API key、token 等
